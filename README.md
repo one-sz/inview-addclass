@@ -1,5 +1,7 @@
 # Inview IntersectionObserver Utility
 
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?logo=javascript&logoColor=black)
+
 A lightweight, high-performance, and modular JavaScript helper built on top of the native `IntersectionObserver` API. Designed to handle scroll-triggered animations effortlessly with zero dependencies.
 
 ## Features
