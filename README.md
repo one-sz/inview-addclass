@@ -14,7 +14,7 @@ A lightweight, high-performance, and modular JavaScript helper built on top of t
 ## Installation & Setup
 
 1. Place `inview-observer.js` inside your vendor or helper directory.
-2. Import the function into your main script file.
+2. Import the function into your script file.
 
 ### 1. The Utility Function (`inview-observer.js`)
 
