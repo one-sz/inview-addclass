@@ -49,7 +49,7 @@ export function observeElementInView(targetElement, callback, options = {}) {
 
 ---
 
-### 2. Implementation in Main Script (`general.js`)
+### 2. Implementation in Main Script (`general.js`) or in another file where you need this functionality
 
 Integrate the observer into your animation handling function:
 
