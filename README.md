@@ -81,12 +81,12 @@ const inviewAnimate = () => {
 					entry.target.classList.add('inview-active');
 				}
 			} else {
-				// Optional: Remove class when element leaves viewport for repeating animations
-				// entry.target.classList.remove('inview-active');
+				// Optional: Remove class when element leaves viewport for repeating animations; use with "repeat: true"
+				//entry.target.classList.remove('inview-active');
 			}
 		}, {
 			threshold: threshold,
-			repeat: false // Set to true to enable repeating animations on every scroll interaction
+			//repeat: true // Set to true to enable repeating animations on every scroll interaction
 		});
 	});
 };
