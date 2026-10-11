@@ -13,10 +13,10 @@ A lightweight, high-performance, and modular JavaScript helper built on top of t
 
 ## Installation & Setup
 
-1. Place `intersection-observer.js` inside your vendor or helper directory.
+1. Place `inview-observer.js` inside your vendor or helper directory.
 2. Import the function into your main script file.
 
-### 1. The Utility Function (`intersection-observer.js`)
+### 1. The Utility Function (`inview-observer.js`)
 
 ```javascript
 /**
@@ -54,7 +54,7 @@ export function observeElementInView(targetElement, callback, options = {}) {
 Integrate the observer into your animation handling function:
 
 ```javascript
-import { observeElementInView } from './vendor/intersection-observer.js';
+import { observeElementInView } from './vendor/inview-observer.js';
 
 const inviewAnimate = () => {
 	// Select all elements designated for scroll animations
